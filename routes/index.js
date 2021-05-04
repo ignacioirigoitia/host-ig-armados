@@ -5,7 +5,6 @@ const localCheck = require("../middlewares/localCheck");
 
 router.get("/", localCheck,index);
 router.get("/contact", contact);
-router.post("/suscripcion", suscripcion);
 router.get("/agradecimiento", agradecimiento)
 
 

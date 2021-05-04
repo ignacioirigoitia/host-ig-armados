@@ -1,9 +1,5 @@
-const fs = require("fs");
-const path = require("path");
-const { getUsers, setUsers } = require('../data/users');
 const { validationResult } = require('express-validator');
 const bcrypt = require('bcrypt')
-const users = getUsers();
 const db = require("../database/models");
 
 module.exports = {
